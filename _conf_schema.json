@@ -1,11 +1,4 @@
 {
-  "botName": {
-    "description": "机器人名称",
-    "type": "string",
-    "hint": "自定义机器人名称，默认Astrbot",
-    "default": "Astrbot"
-  },
-{
   "is_use_default": {
     "description": "是否使用默认背景图片",
     "type": "bool",
@@ -17,6 +10,12 @@
     "type": "list",
     "hint": "自定义的背景图列表，如: [\"https://example.com/image1.jpg\", \"https://example.com/image2.jpg\"]",
     "default": []
+  },
+  "botName": {
+    "description": "机器人名称",
+    "type": "string",
+    "hint": "自定义机器人名称，默认Astrbot",
+    "default": "Astrbot"
   },
   "botNameColorful": {
     "description": "是否使用彩色昵称",
