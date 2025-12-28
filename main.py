@@ -34,6 +34,7 @@ class StatusPrPr:
         self.config = {
             "command": "prprstatus",
             "authority": 1,
+            "botName": botName,
             "BackgroundURL": [
                 os.path.join(os.path.dirname(__file__), 'htmlmaterial/白圣女.txt'),
                 os.path.join(os.path.dirname(__file__), 'htmlmaterial/ba.txt')
@@ -505,7 +506,7 @@ class StatusPrPr:
     <div id="background-page">
         <div class="__title">
             <img src="{avatar}" class="__title-image" alt="Bot Profile" />
-            <span class="__title-text" id="config_name">{botName}</span>
+            <span class="__title-text" id="config_name">{self.config["botName"]}</span>
             <!-- Insert HTML for profile image would go here -->
         </div>
         <ul class="__dashboard" id="config_dashboard">
